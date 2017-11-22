@@ -1,0 +1,64 @@
+/*Overall style*/
+.Main-Headers,.Main-Class{
+    text-align: center; 
+    position: relative;
+    font-style: italic;
+}
+.Main-Class{
+    font-size: 150%;
+}
+.EmptyLinks{  
+    font-size: 110%;
+    font-style: italic;
+    display: block;
+    margin:  auto;
+    text-align: center;
+    float: center;
+    }    
+/*Picture Slider Style*/
+.Image-Slider{
+    display: block;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.Image-Slider-Pictures{
+    margin:center;
+    width: 300px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/*Buttons style*/
+.Next-Picture {
+    top:-117px;
+    position: relative;
+    margin:center;
+    opacity: 0.5;
+    backface-visibility: visible;
+    border: none;
+    border-radius: 30%;
+}
+.Previous-Picture {
+    position: relative;
+    margin:center;
+    margin-right: 258px;
+    top:-117px;
+    margin-bottom: auto;
+    opacity: 0.5;
+    backface-visibility: visible;
+    border: none;
+    border-radius: 30%;      
+}    
+/*Hover-Style*/
+.Previous-Picture:hover{
+    background-color:darkgrey;
+}
+.Next-Picture:hover{
+    background-color:darkgrey;
+}    
+/*Main Background*/
+.Main{
+    background-color: #d3d3d3;
+    }
